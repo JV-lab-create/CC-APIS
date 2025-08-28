@@ -2,10 +2,10 @@
 local name = "JV-LAB-CREATE INSTALLER"
 term.setBackgroundColour(colors.blue)
 term.clear()
-term.setCurserPos(1,1)
+term.setCursorPos(1,1)
 term.setBackgroundColour(colors.white)
 term.write(name)
-term.setCurserPos(1,2)
+term.setCursorPos(1,2)
 term.setBackgroundColour(colors.blue)
 print("Loading Please wait a moment!")
 sleep(3)
