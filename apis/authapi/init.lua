@@ -25,13 +25,13 @@ function authapi.login(name, pass)
             ["pass"] = pass
         }
     })
-    local id, message = rednet.receive(nil, 7)
+    local id, remessage = rednet.receive(nil, 7)
     if id == authcomputerid or id == nil then
         if not id then
             return "timeout"
         else
-            local dbmes = message["auth"]
-            if dbmes["auth"] == true then
+            local dbmes = remessage["auth"]
+            if dbmes == true then
                 return true
             else
                 return false
