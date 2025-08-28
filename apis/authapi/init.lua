@@ -31,7 +31,7 @@ function authapi.login(name, pass)
             return "timeout"
         else
             local dbmes = message["auth"]
-            if dbmes["auth"] = true then
+            if dbmes["auth"] == true then
                 return true
             else
                 return false
@@ -61,4 +61,5 @@ function authapi.server()
     end
 end
 end
+
 return authapi
