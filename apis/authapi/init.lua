@@ -30,7 +30,12 @@ function authapi.login(name, pass)
         if not id then
             return "timeout"
         else
-            of 
+            local dbmes = message["auth"]
+            if dbmes["auth"] = true then
+                return true
+            else
+                return false
+            end
         end
     end
 end
