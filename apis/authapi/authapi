@@ -1,0 +1,4 @@
+local config = {
+    ["authComputer"] = 75
+}
+return config
