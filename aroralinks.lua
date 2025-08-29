@@ -1,6 +1,7 @@
 local link = {
     ["store"] = {
-        ["basalt"] = "https://raw.githubusercontent.com/Pyroxenium/Basalt/refs/heads/master/docs/install.lua release latest.lua",
+        ["basalt"] = "wget run https://raw.githubusercontent.com/Pyroxenium/Basalt/refs/heads/master/docs/install.lua release latest.lua",
+        ["rednetspy"] = "pastebin get s5wXb5fD rednetspy",
     },
 }
 return link
