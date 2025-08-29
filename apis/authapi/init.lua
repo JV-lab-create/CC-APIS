@@ -48,12 +48,14 @@ function authapi.server()
     id, message = rednet.receive()
     if not(message == nil) then
         if type(message) == "table" then
-            local mt = message["auth"]
-            if not(usersdatabase[mt["name"]] == nil) then
-                    rednet.send(id, {
-                        ["auth"] = true
-                })
-                print("authorized "..mt["name"].." pass "..mt["pass"])
+            if  not(message["auth"] == nil)
+                local mt = message["auth"]
+                if not(usersdatabase[mt["name"]] == nil) then
+                        rednet.send(id, {
+                            ["auth"] = true
+                    })
+                   print("authorized "..mt["name"].." pass "..mt["pass"])
+                end
             end
         else
             print("i got a message that is not a table the message is "..message)
