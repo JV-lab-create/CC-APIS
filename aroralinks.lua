@@ -5,7 +5,8 @@ local link = {
         ["minex"] = "pastebin run mAzxu4t0",
         ["japbapi"] = "wget https://raw.githubusercontent.com/Missooni/CC/refs/heads/main/progressBar/progressBar.lua",
         ["forms"] = "wget https://raw.githubusercontent.com/Missooni/CC/refs/heads/main/textForms/forms.lua",
-        ["authapi"] = "wget run https://raw.githubusercontent.com/JV-lab-create/CC-APIS/refs/heads/main/installer.minia",
+        ["authapi"] = "pastebin run Yi6gq4HR",
+        ["store"] = "",
     },
 }
 return link
