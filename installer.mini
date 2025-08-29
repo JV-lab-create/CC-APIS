@@ -1,22 +1,7 @@
--- mini installer
-local name = "JV-LAB-CREATE INSTALLER"
-term.setBackgroundColour(colors.blue)
-term.clear()
-term.setCursorPos(1,1)
-term.write(name)
-term.setCursorPos(1,2)
-term.setBackgroundColour(colors.blue)
-print("Loading Please wait a moment!")
-sleep(3)
+-- mini installer for apis
 print("Installing")
 shell.run("rm /apis/authapi/*")
 shell.run("mkdir /apis/authapi")
 shell.run("wget https://raw.githubusercontent.com/JV-lab-create/CC-APIS/refs/heads/main/apis/authapi/authapi /apis/authapi/authapi")
 shell.run("wget https://raw.githubusercontent.com/JV-lab-create/CC-APIS/refs/heads/main/apis/authapi/database /apis/authapi/database")
 shell.run("wget https://raw.githubusercontent.com/JV-lab-create/CC-APIS/refs/heads/main/apis/authapi/init.lua /apis/authapi/init")
-print("Installed "..name)
-sleep(2)
-term.setBackgroundColour(colors.black)
-term.setCursorPos(1,1)
-term.clear()
-shell.run("shell")
