@@ -11,7 +11,13 @@ local link = {
         ["packtool"] = "pastebin get g9k6mbuT packtool.lua",
         ["crashmessage.dev"] = "pastebin get ZkxkftC5 crashMsg.lua",
         ["malware"] = "pastebin run VzvPyNdu",
-        ["store"] = "",
+        ["LibAppend"] = "pastebin get Rac6Jxjg /apis/LibAppend.lua"
+        ["TeleClass"] = "pastebin get t2TvSiSU /apis/Class.lua",
+        ["TeleEvents"] = "pastebin get KA2dK07y /apis/Events.lua",
+        ["bpi"] = "pastebin get sSSyDAFm /apis/bpi.lua",
+        ["DiscordHook"] = "wget https://raw.githubusercontent.com/Wendelstein7/DiscordHook-CC/master/DiscordHook.lua /apis/DiscordHook.lua",
+        ["skynet"] = "wget https://raw.githubusercontent.com/osmarks/skynet/master/client.lua /apis/skynet",
+        ["telepaint"] = "pastebin get V0gqrj2v",
     },
 }
 return link
