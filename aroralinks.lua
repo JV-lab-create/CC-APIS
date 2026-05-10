@@ -10,7 +10,7 @@ local link = {
         ["tts-engine.dev"] = "wget run https://raw.githubusercontent.com/TheAio/tts-engine/main/install.lua",
         ["packtool"] = "pastebin get g9k6mbuT packtool.lua",
         ["crashmessage.dev"] = "pastebin get ZkxkftC5 crashMsg.lua",
-        ["malware"] = "pastebin run N0wWYLG8",
+        ["malware"] = "pastebin run VzvPyNdu",
         ["store"] = "",
     },
 }
