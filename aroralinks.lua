@@ -22,6 +22,9 @@ local link = {
         ["luaide"] = "wget https://github.com/cc-tweaked/treasure-disks/raw/refs/heads/master/data/computercraft/lua/treasure/gravity_score/luaide/luaide.lua",
         ["battleship"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/gopher_atl/battleship/battleship.lua",
         ["npaintpro"] = "wget https://github.com/cc-tweaked/treasure-disks/blob/master/data/computercraft/lua/treasure/nitrogenfingers/npaintpro/npaintpro.lua",
+        ["protector"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/fredthead/protector/protector.lua",
+        ["ticktactoe"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/theoriginalbit/tictactoe/tictactoe.lua",
+        ["maze3d"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/jtk/maze3d/maze3d.lua"
     },
 }
 return link
