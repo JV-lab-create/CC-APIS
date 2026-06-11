@@ -19,7 +19,7 @@ local link = {
         ["skynet"] = "wget https://raw.githubusercontent.com/osmarks/skynet/master/client.lua /apis/skynet",
         ["telepaint"] = "pastebin get V0gqrj2v",
         ["alongtimeago"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/dan200/alongtimeago/alongtimeago.lua",
-        ["luaide"] = "https://github.com/cc-tweaked/treasure-disks/raw/refs/heads/master/data/computercraft/lua/treasure/gravity_score/luaide/luaide.lua" 
+        ["luaide"] = "https://github.com/cc-tweaked/treasure-disks/raw/refs/heads/master/data/computercraft/lua/treasure/gravity_score/luaide/luaide.lua",
     },
 }
 return link
