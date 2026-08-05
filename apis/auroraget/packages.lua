@@ -1,3 +1,4 @@
+function getData()
 local link = {
     ["store"] = {
         ["basalt"] = { type = "command", command = "wget run https://raw.githubusercontent.com/Pyroxenium/Basalt/refs/heads/master/docs/install.lua release latest.lua" },
@@ -28,3 +29,4 @@ local link = {
     },
 }
 return link
+end
