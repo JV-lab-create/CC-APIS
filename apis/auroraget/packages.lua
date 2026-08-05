@@ -1,4 +1,4 @@
-
+local link = {
     ["store"] = {
         ["basalt"] = { type = "command", command = "wget run https://raw.githubusercontent.com/Pyroxenium/Basalt/refs/heads/master/docs/install.lua release latest.lua" },
         ["rednetspy"] = { type = "command", command = "pastebin get s5wXb5fD" },
@@ -26,3 +26,5 @@
         ["ticktactoe"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/theoriginalbit/tictactoe/tictactoe.lua",
         ["maze3d"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/jtk/maze3d/maze3d.lua"
     },
+}
+return link
