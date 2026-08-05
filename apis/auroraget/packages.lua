@@ -26,6 +26,7 @@ local link = {
         ["protector"] = { type = "file", fileURL = "https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/fredthead/protector/protector.lua", filePath = "/program/games/protector.lua", name = "protector"},
         ["ticktactoe"] = { type = "file", fileURL = "https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/theoriginalbit/tictactoe/tictactoe.lua", filePath = "/program/games/tictactoe.lua", name = "tictactoe"},
         ["maze3d"] = { type = "file", fileURL = "https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/theoriginalbit/tictactoe/maze3d.lua", filePath = "/program/games/maze3d.lua", name = "maze3d"},
+        ["clock"] = { type = "file", fileURL = "https://raw.githubusercontent.com/Browndog7912/ComputerCraftPrograms/refs/heads/main/simple/clock.lua", filePath = "clock.lua", name = "clock"},
     },
 }
 return link

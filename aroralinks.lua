@@ -25,6 +25,7 @@ local link = {
         ["protector"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/fredthead/protector/protector.lua",
         ["ticktactoe"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/theoriginalbit/tictactoe/tictactoe.lua",
         ["maze3d"] = "wget https://raw.githubusercontent.com/cc-tweaked/treasure-disks/refs/heads/master/data/computercraft/lua/treasure/jtk/maze3d/maze3d.lua"
+        ["clock"] = "wget https://raw.githubusercontent.com/Browndog7912/ComputerCraftPrograms/refs/heads/main/simple/clock.lua"
     },
 }
 return link
